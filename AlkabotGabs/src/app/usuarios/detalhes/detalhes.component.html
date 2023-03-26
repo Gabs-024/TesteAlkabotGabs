@@ -1,0 +1,18 @@
+<navbar></navbar>
+<div class="geral">
+    <button class="buttonBack" type="submit" mat-raised-button routerLink="/usuario">Voltar</button>
+    <div class="mat-elevation-z8">
+        <div class="infos">
+            <h3><strong>DETALHES DO USUÁRIO</strong></h3>
+            <h4><strong> Nome: </strong>{{data.name}} </h4>
+            <h4><strong>Username: </strong>{{data.username}}</h4>
+            <h4><strong>Email: </strong>{{data.email}}</h4>
+            <h4><strong>Endereço: </strong>{{data.address.street}}, {{data.address.suite}} - 
+                {{data.address.city}} - {{data.address.zipcode}}</h4>
+            <h4><strong>Telefone: </strong>{{data.phone}}</h4>
+            <h4><strong>Website: </strong>{{data.website}}</h4>
+            <h4><strong>Empresa: </strong>{{data.company.name}} - {{data.company.catchPhrase}} ( {{data.company.bs}} )</h4>
+        </div>
+    </div>
+</div>
+<footer>

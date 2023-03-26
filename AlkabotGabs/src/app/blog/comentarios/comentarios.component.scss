@@ -1,0 +1,44 @@
+body {
+    height: auto;
+}
+
+.mat-elevation-z8 {
+    width: 50rem;
+    height: auto;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245,245,245);
+    color: #0f1927;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    border: 1px solid #0f1927;
+}
+
+
+.infos {
+    display: block;
+    justify-content: center;
+    align-items:flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50rem;
+    padding: 1rem;
+}
+
+.buttonBack {
+    margin-top: 2%;
+    width: 150px;
+}
+
+.geral {
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonBack {
+    background-color: #15172b;
+}

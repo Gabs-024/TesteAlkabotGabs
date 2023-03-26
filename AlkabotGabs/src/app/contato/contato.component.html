@@ -1,0 +1,36 @@
+<navbar></navbar>
+<div class="layout">
+    <div class="body">
+        <h1 style="margin-left: 1rem;">Contato</h1>
+        <form [formGroup]="formContato" (ngSubmit)="enviar()" class="geral">
+            <div class="col-md-12">
+                <label for="inputNome" class="form-label">Nome completo</label>
+                <input type="name" class="form-control" placeholder="Gabriel Ferreira" 
+                id="inputName" formControlName="Nome" maxlength="50" required>
+            </div>
+            <div class="contato">
+                <div class="col-md-8">
+                    <label style="margin-top: 0.3rem;" for="inputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" placeholder="dev.gabsferreira@gmail.com" 
+                    id="inputEmail" formControlName="Email" maxlength="50" required>
+                </div>
+                <div class="col-4">
+                    <label style="margin-top: 0.3rem;" for="inputPhone" class="form-label">Telefone</label>
+                    <input class="form-control" id="inputPhone" formControlName="Telefone"
+                    maxlength="11" required placeholder="81-986986117">
+                </div>
+            </div>
+            <div class="col-12">
+                <label style="margin-top: 0.3rem;" for="inputMensagem" class="form-label">Mensagem</label>
+                <textarea type="textarea" style="height: 10rem;" class="form-control" placeholder="Os dados preenchidos vão para um FormGroup no console."
+                id="inputMensagem" formControlName="Mensagem"></textarea>
+            </div>
+            <p style="font-size: 10px; margin-top: 0.3rem;">As informações com (*) são obrigatórias</p>
+            <div class="buttons">
+                <button class="button" type="submit" mat-raised-button routerLink="/home">Voltar</button>
+                <button class="button" type="submit" mat-raised-button (click)="enviar()" >Enviar</button>
+            </div>
+        </form>
+    </div>
+</div>
+<footer>

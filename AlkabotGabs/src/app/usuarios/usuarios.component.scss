@@ -1,0 +1,54 @@
+body {
+    height: auto;
+}
+
+.table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #0f1927;
+}
+
+.table td button {
+    margin-bottom: 0.5rem;
+}
+
+.mat-elevation-z8 {
+    width: 50rem;
+    height: auto;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245,245,245);
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.infos {
+    display: block;
+    justify-content: center;
+    align-items:flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50rem;
+    padding: 1rem;
+}
+
+.buttonBack {
+    margin-top: 2%;
+    width: 150px;
+    background-color: #15172b;
+}
+
+.geral {
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons {
+    background-color: #15172b;
+}

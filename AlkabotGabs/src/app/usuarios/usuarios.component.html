@@ -1,0 +1,16 @@
+<navbar></navbar>
+<div class="geral">
+    <button class="buttonBack" type="submit" mat-raised-button routerLink="/home">Voltar</button>
+    <table class="mat-elevation-z8">
+        <div class="infos">
+            <tr class="header">
+                <th> NOME </th>
+            </tr>
+            <tr class="table" *ngFor="let user of usuarios">
+                <td> {{user.name}} </td>
+                <td><button class="buttons" mat-raised-button routerLink="/usuario/{{ user.id }}"> Exibir detalhes </button></td>
+            </tr>
+        </div>
+    </table>
+</div>
+<footer>

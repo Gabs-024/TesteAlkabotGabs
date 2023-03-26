@@ -1,0 +1,33 @@
+.img {
+    width: 34.8rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.geral {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    height: 36.9rem;
+    width: 40rem;
+}
+
+.buttons {
+    margin-left: auto;
+    margin-right: auto;
+    height: 3rem;
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: #15172b;
+}
