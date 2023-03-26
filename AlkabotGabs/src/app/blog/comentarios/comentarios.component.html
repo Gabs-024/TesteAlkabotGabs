@@ -1,0 +1,14 @@
+<navbar></navbar>
+<div class="geral">
+    <button class="buttonBack" type="submit" mat-raised-button routerLink="/posts">Voltar</button>
+    <div class="mat-elevation-z8">
+        <div class="infos" *ngFor="let coments of data">
+            <h3><strong>COMENTÁRIOS</strong></h3>
+            <h4><strong>{{ coments.id }} </strong></h4>
+            <h4><strong>Nome: </strong> {{coments.name}} </h4>
+            <h4><strong>Email: </strong> {{coments.email}} </h4>
+            <h4><strong>Comentário: </strong> {{coments.body}} </h4>
+        </div>
+    </div>
+</div>
+<footer>

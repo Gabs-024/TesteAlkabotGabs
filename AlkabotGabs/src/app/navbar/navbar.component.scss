@@ -1,0 +1,64 @@
+.mat-toolbar {
+    background-color: #15172b;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccbd9e;
+}
+
+.navbar-container {
+    margin-left: 6.25rem;
+}
+
+img {
+    width: 70px;
+    height: 50px;
+    padding-top: 7px;
+    margin-left: 30px;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    list-style: none;
+    padding: 0;
+}
+
+
+.navbar-item {
+    border: none;
+    font-family: "Typold", sans-serif;
+    margin: 15px;
+    color: #ccbd9e;
+    background-color: transparent;
+    font-size: medium;
+    text-transform: uppercase;
+    border: 0;
+    letter-spacing: 3px;
+    font-size: .85rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-item:hover {
+    color: #d8ccb2;
+}
+
+.search {
+    width: 200px;
+    height: 100px;
+    margin-top: 5px;
+    color: #d8ccb2;
+}
+
+.acount-button {
+    color: #ccbd9e;
+    margin-left: 6.25rem;
+
+}
+
+.acount-button:hover {
+    color: #d8ccb2;
+}

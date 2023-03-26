@@ -1,0 +1,19 @@
+<navbar></navbar>
+<div class="container">
+    <div class="geral">
+        <button class="buttonBack" type="submit" mat-raised-button routerLink="/home">Voltar</button>
+        <mat-card class="post" *ngFor="let post of todosPosts">
+            <mat-card-header>
+                <mat-card-title>{{ post.title }}</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <p>{{ post.body }}</p>
+            </mat-card-content>
+            <mat-card-actions>
+                <button class="buttons" mat-raised-button routerLink="/posts/{{ post.id }}/comments">Comentários</button>
+                <button class="buttons" (click)="like()" mat-raised-button>Curtir {{likes}}</button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+</div>
+<footer></footer>

@@ -1,0 +1,54 @@
+.layout {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50rem;
+    min-height: 40%;
+    max-height: 90%;
+    border-radius: 20px;
+    background-color: rgb(245,245,245);
+    color: #0f1927;
+    border: #0f1927;
+}
+
+.body {
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 1rem;
+    width: 50rem;
+}
+
+.container mat-form-field {
+    color: #0f1927;
+    background-color: aqua;
+}
+
+.contato {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #0f1927;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 150px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: #15172b;
+}
+
+.container {
+    color: #0f1927;
+}
+
+.geral {
+    margin: 1rem;
+}
+
