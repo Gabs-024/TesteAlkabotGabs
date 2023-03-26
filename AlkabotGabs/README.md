@@ -22,8 +22,6 @@ Navegue até a pasta do projeto usando 'cd alkabotgabs'
 
 Instale as dependências usando 'npm install'
 
-Instale o Angular Material usando 'ng add @angular/material'
-
 ## Como Usar
 
 Execute 'ng serve' para iniciar a aplicação. Acesse http://localhost:4200/ no navegador para visualizar a aplicação.
