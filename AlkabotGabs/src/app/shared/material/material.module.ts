@@ -42,7 +42,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
     ReactiveFormsModule,
     MatStepperModule,
     MatListModule,
-    MatExpansionModule,
+    MatExpansionModule
   ]
 })
 export class MaterialModule { }

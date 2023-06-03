@@ -3,39 +3,29 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #ccbd9e;
-}
-
-.navbar-container {
-    margin-left: 6.25rem;
 }
 
 img {
     width: 70px;
     height: 50px;
-    padding-top: 7px;
-    margin-left: 30px;
+    margin-left: 5%;
 }
 
 .navbar-list {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
     list-style: none;
     padding: 0;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 
 .navbar-item {
     border: none;
     font-family: "Typold", sans-serif;
-    margin: 15px;
+    margin-right: 10px;
     color: #ccbd9e;
-    background-color: transparent;
-    font-size: medium;
     text-transform: uppercase;
-    border: 0;
     letter-spacing: 3px;
     font-size: .85rem;
     cursor: pointer;
@@ -60,5 +50,34 @@ img {
 }
 
 .acount-button:hover {
-    color: #d8ccb2;
+    color: #dbc89f;
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        display: flex;
+        justify-content: center;
+        width: 70%;
+    }
+
+    .navbar-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+
+    .mat-toolbar {
+        background-color: #15172b;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .navbar-item {
+        display: flex;
+        justify-content: space-between;
+    }
+
 }

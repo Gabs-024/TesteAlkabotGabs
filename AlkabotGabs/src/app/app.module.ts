@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BlogComponent } from './blog/blog.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ContatoComponent } from './contato/contato.component';
 import { FooterModule } from './footer/footer.module';
 import { NavbarModule } from './navbar/navbar.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -17,18 +16,19 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
 import { DetalhesComponent } from './usuarios/detalhes/detalhes.component';
 import { ComentariosComponent } from './blog/comentarios/comentarios.component';
 import { HomeComponent } from './home/home.component';
+import { ContatoComponent } from './contato/contato.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     BlogComponent,
-    ContatoComponent,
     UsuariosComponent,
     DetalhesComponent,
     ComentariosComponent,
-    HomeComponent
-  ],
+    HomeComponent,
+    ContatoComponent
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
