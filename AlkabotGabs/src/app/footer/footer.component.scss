@@ -87,6 +87,12 @@
     height: 200px;
 }
 
+.nav__ul {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+}
+
 .nav__ul a {
     color: #ccbd9e;
 }
@@ -100,9 +106,10 @@
 
 .legal {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     color: #ccbd9e;
+    height: 200px;
+    flex-direction: column;
 }
 
 .legal__links {
@@ -116,6 +123,7 @@
 
 #imagemLogo {
     width: 125px;
+    display: flex;
     height: 100px;
 }
 
@@ -136,6 +144,38 @@
 
     .footer__addr {
         flex: 1 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .footer__nav {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer__addr {
+        display: none   ;
+    }
+
+    .legal {
+        display: none   ;
+    }
+
+    .footer__nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #tecnologias {
+        padding-left: 5em;
+        width: 50%;
     }
 }
 
