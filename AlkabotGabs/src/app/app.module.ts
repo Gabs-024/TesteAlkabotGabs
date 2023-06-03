@@ -17,6 +17,7 @@ import { DetalhesComponent } from './usuarios/detalhes/detalhes.component';
 import { ComentariosComponent } from './blog/comentarios/comentarios.component';
 import { HomeComponent } from './home/home.component';
 import { ContatoComponent } from './contato/contato.component';
+import { NgxMaskModule } from 'ngx-mask';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { ContatoComponent } from './contato/contato.component';
     NavbarModule,
     FooterModule,
     RouterModule,
-    HttpClientModule
+    HttpClientModule,
+    NgxMaskModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
