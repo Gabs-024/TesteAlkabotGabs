@@ -18,7 +18,7 @@ Clone o repositório usando git clone https://github.com/Gabs-024/TesteAlkabotGa
 
 Navegue até a pasta do projeto usando 'cd alkabotgabs'
 
-Instale as dependências usando 'npm install'
+Instale as dependências usando 'npm install', 'ng add @angular/material' e 'npm i ngx-mask@14.2.2'
 
 # Como Usar
 
